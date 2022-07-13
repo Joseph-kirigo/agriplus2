@@ -47,10 +47,12 @@ nav{
 .navlinks ul li:hover::after{
     width: 100%;
 }
-.loginbutton{
-    color: white;
+.logbtn{
+    background-color: white;
     margin-right: 70px;
     cursor: pointer;
+    padding: 4px 4px 4px 4px;
+    text-decoration: none;
 }
 .button1{
     color: white;
@@ -64,13 +66,18 @@ nav{
     border: none;
     background-color:#ED661F;
     font-size: 16px;
-    font-weight: 600 !important;
+    font-weight: 600;
+    position: relative;
+    display: inline-block;
     cursor: pointer;
 }
-.navbutton:hover {
-    box-shadow: grey 6px 15px 16px 0px; 
+.navbutton:hover{
+    order: 1px solid #ED661F;
+    background: white;
+    transition: 0.5s;
 }
-
+    
+    
 .heading{
     width: 100%;
     background-image: url(./assets/images/image\ 1\ \(1\).png);
@@ -79,7 +86,7 @@ nav{
     position: relative;
     height: 100vh;
 }
-.pageone{
+.headingone{
     margin: auto;
     display: flex;
     justify-content:space-around;
@@ -160,7 +167,7 @@ font-size: 25px;
     font-weight: 300;
     font-size: 25px;
 } 
-.pagebutton{
+.headingbutton{
     display: inline-block;
     text-decoration: none;
     color:black;
@@ -173,12 +180,12 @@ font-size: 25px;
     position: relative;
     cursor: pointer;
 }
-.pagebutton:hover{
+.headingbutton:hover{
     border: 1px solid #ED661F;
     background: white;
     transition: 1s;
 }
-.pagetwo{
+.headingtwo{
     display: flex;
     width: 80%;
     justify-content: space-between;
@@ -195,7 +202,7 @@ font-size: 25px;
 .u{
     text-decoration: 5px underline solid #ED661F;
 }
-.pagetwo-text > p {
+.headingtwo-text > p {
     font-weight: 300;
     padding-top: 15px;
     font-size: 22px;
