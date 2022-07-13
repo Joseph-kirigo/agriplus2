@@ -122,10 +122,11 @@ font-size: 25px;
     border: 1px solid rgb(241, 227, 227);
     background: white;
     margin-right: 10%;
-    padding-bottom: 3%;
+    padding-bottom: 8%;
     align-items: center;
     justify-content: center;
     list-style: none;
+    
 
 }
  .data{
@@ -142,6 +143,7 @@ font-size: 25px;
  .stats{
     align-items: center;
     justify-content: center;
+    padding-top: 10%;
  }
  .data::after{
     box-shadow: 2px 2px rgb(177, 170, 170);
