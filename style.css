@@ -57,15 +57,16 @@ nav{
     margin-right: 70px;
     cursor: pointer;
 }
-.get{
+.navbutton{
     padding: 12px;
+    color: white;
     border: none;
     background-color:#ED661F;
     font-size: 16px;
     font-weight: 600 !important;
     cursor: pointer;
 }
-.get:hover {
+.navbutton:hover {
     box-shadow: grey 6px 15px 16px 0px; 
 }
 
