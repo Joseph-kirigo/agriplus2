@@ -101,7 +101,7 @@ padding-top: 12px;
 font-weight: 300;
 font-size: 25px;
 } 
-.cust-data{
+.data-stat{
     clear: left;
     float: right;
     border: 1px solid rgb(241, 227, 227);
@@ -110,6 +110,7 @@ font-size: 25px;
     padding-top: 5%;
     align-items: center;
     justify-content: center;
+    list-style: none;
 
 }
  .data{
@@ -130,7 +131,7 @@ font-size: 25px;
  .data::after{
     box-shadow: 2px 2px rgb(177, 170, 170);
  }
- .cust-data ul li{
+ .data-stat ul li{
      list-style: none;
      display: inline-block;
      padding: 8px 12px;
