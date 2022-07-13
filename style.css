@@ -107,6 +107,9 @@ font-size: 25px;
     border: 1px solid rgb(241, 227, 227);
     background: white;
     margin-right: 10%;
+    padding-top: 5%;
+    align-items: center;
+    justify-content: center;
 
 }
  .data{
@@ -117,7 +120,12 @@ font-size: 25px;
     padding-left: 15px;
     padding-right: 16px;
     cursor: pointer;
+    align-items: center;
 
+ }
+ .stats{
+    align-items: center;
+    justify-content: center;
  }
  .data::after{
     box-shadow: 2px 2px rgb(177, 170, 170);
