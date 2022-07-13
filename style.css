@@ -4,6 +4,10 @@
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
+/* body{
+    width: 960px;
+    margin: auto;
+} */
 
 nav{
     align-items: center;
@@ -414,6 +418,7 @@ margin-top: 15px;
     margin: auto;
     margin-top: 100px;
     margin-bottom: 20px;
+    align-items: center;
 }
 .button-header > h1{
     color: white;
@@ -421,6 +426,8 @@ margin-top: 15px;
     font-weight: 300;
     text-align: center;
     padding-top: 50px;
+    align-items: center;
+    justify-content: center;
 
 }
 .subscribe-button > p{
@@ -429,6 +436,7 @@ margin-top: 15px;
     font-weight: 200;
     text-align: center;
     padding-bottom: 30px;
+    align-items: center;
 
 }
 .searchicon{
@@ -458,17 +466,17 @@ margin-top: 15px;
     cursor: pointer;
 
 }
-.btn:hover{
-    box-shadow: gray 6px 15px 16px 0px;
+/* .btn:hover{
+    box-shadow: rgb(243, 235, 235) 6px 15px 16px 0px;
 
-}
+} */
 .footer1{
     background: black;
     width: 90%;
     margin: auto;
     margin-bottom: 20px;
 }
-.row3{
+.foot{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -477,9 +485,10 @@ margin-top: 15px;
 }
 .logo >h1{
     color: white;
-    font-weight: 300;
+    font-weight: 900;
     font-size: 36px;
     padding-left: 18px;
+
 }
 .logo > p{
     color: white;
