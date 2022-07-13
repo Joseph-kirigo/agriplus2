@@ -401,12 +401,12 @@ margin-top: 15px;
 .colu > h2{
     text-align: right;
 }
-.colu .fa{
+.stars .fa{
     color: #ED661F;
     justify-content: center;
     font-size: 36px;
     padding-bottom: 10px;
-    background: #ED661F;
+    /* background: #ED661F; */
 }
 .subscribe-button{
     background: black;
