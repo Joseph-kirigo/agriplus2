@@ -340,7 +340,7 @@ font-size: 25px;
     border-radius: 10px;
 }
 
-.colu2{
+.stars{
     width: 20%;
     margin-bottom: 10px;
     background: #e6dfdf;
@@ -350,7 +350,7 @@ font-size: 25px;
     
 
 } 
-.colu2 > p{
+.stars > p{
     text-align:unset;
     font-size: 23px;
     padding: 20;
